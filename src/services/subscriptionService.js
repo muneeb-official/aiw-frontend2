@@ -1,5 +1,5 @@
 // src/services/subscriptionService.js
-const API_BASE = 'http://localhost:8000/api/platform';
+const API_BASE = 'aiworkforce-prod-alb-240576262.us-east-1.elb.amazonaws.com/apihost:8000/api/platform';
 
 export const subscriptionService = {
   // Get all available services/plans
